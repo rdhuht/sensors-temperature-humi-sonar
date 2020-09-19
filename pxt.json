@@ -1,0 +1,22 @@
+{
+    "name": "sensors-temperature-humi-sonar",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-DHT11_DHT22": "github:zhandroids/dth22#9ab4ea76c033deac8bdbbd3e65e8887af52936f2",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
